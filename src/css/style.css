@@ -1,0 +1,126 @@
+.custom-width {
+    width: 550px;
+}
+
+.custom-width-img {
+    width: 600px;
+}
+
+.custom-width-img2 {
+    width: 450px;
+}
+
+.rigth-custom {
+    right: -39em
+}
+
+.bottom-custom{
+    bottom: 3em
+}
+
+.left-custom{
+    left: 58em;
+}
+
+.yellow-card{
+    background-color: #fbba00;
+}
+
+.red-card{
+    background-color: #e73943;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+
+    .text-base, .custom-width, .text-sm{
+        font-size: 14px;
+    }
+    .text-sm{
+        margin-top: 1rem;
+    }
+    .custom-logo{
+        width: 6rem;
+    }
+    .custom-logo-curacao{
+        width: 11rem;
+    }
+
+    .custom-logo, .custom-logo-curacao{
+        margin-top: 0;
+    }
+ 
+    .custom-width{
+        width: 450px;
+        height: 58vh;
+        margin-bottom: 0;
+    }
+
+
+    .custom-width-img{
+        width: 280px;
+    }
+
+    .custom-heigth-img2{
+        width: 125px;
+        height: 170px;
+
+    }
+
+    .custom-heigth-img{
+        height: 215px;
+    }
+    
+    .custom-width-img2{
+        width: 250px;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .custom-card-red{
+        width: 10rem;
+        height: 5rem;
+        margin-top: 5rem;
+
+        left: 8rem;
+        top: -5.5rem;
+    }
+    .custom-card-yellow{
+        width: 9rem;
+        height: 5rem;
+        top: 5rem;
+        right: -1rem;
+    }
+    .cards{
+        width: 16rem;
+        margin-top: -1.5rem;
+    }
+
+    .rigth-custom {
+        right: -19rem
+    }
+    .left-custom{
+        left: 28rem;
+    }
+    .custom-bottom-img3{
+        bottom: 8rem;
+    }
+    .custom-center{
+        width: 10rem;
+        height: 10rem;
+        
+    }
+    .bottom-custom{
+        bottom: 2rem
+    }
+    .img1-position-custom{
+        left: 9rem;
+        bottom: 3rem;
+    }
+    .card-yellow{
+        width: 35vw;
+        height: 40vh;
+    }
+    .card-red{
+        width: 35vw;
+        height: 50vh;
+    }
+}
